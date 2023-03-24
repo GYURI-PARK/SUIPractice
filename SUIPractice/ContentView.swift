@@ -13,41 +13,61 @@ struct ContentView: View {
     @State var isFilling: Bool = false
     
     var body: some View {
-        ZStack{
-            Color.cyan.edgesIgnoringSafeArea(.all)
-            
-            
-            VStack{
-                
-                Spacer()
-                
-                Image(systemName: isFilling ? "heart.fill" : "heart")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 200)
-                
-                Spacer()
-                
-                HStack {
-                    Text("좋아요를 눌러주세요:)")
+        
+        ScrollView {
+            ZStack{
+                VStack{
+                    Image("london_1")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 300)
+                        .cornerRadius(15)
                     
-                    Button {
-                        isFilling.toggle()
-                    } label: {
-                        Text("LOVE")
-                            .padding()
-                            .background(.pink)
-                            .cornerRadius(10)
+                    HStack {
+                        Text("London, United Kingdom")
+                        
+                        Button {
+                            isFilling.toggle()
+                        } label: {
+                            Text("SAVE")
+                                .padding(10)
+                                .foregroundColor(.red)
+                                .background(Color("DorisColor"))
+                                .cornerRadius(10)
+                        }
+                    }
+                }
+            }
+            
+            ZStack{
+                VStack{
+                    Image("paris_1")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 300)
+                        .cornerRadius(15)
+                    
+                    HStack {
+                        Text("Paris, France")
+                        
+                        Button {
+                            isFilling.toggle()
+                        } label: {
+                            Text("SAVE")
+                                .padding(10)
+                                .foregroundColor(.red)
+                                .background(Color("DorisColor"))
+                                .cornerRadius(10)
+                        }
                     }
                 }
             }
         }
     }
-}
     
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
-    
 }
