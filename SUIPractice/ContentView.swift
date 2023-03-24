@@ -8,19 +8,46 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var strength: Double? = 0
+    @State var isFilling: Bool = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack{
+            Color.cyan.edgesIgnoringSafeArea(.all)
+            
+            
+            VStack{
+                
+                Spacer()
+                
+                Image(systemName: isFilling ? "heart.fill" : "heart")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 200)
+                
+                Spacer()
+                
+                HStack {
+                    Text("좋아요를 눌러주세요:)")
+                    
+                    Button {
+                        isFilling.toggle()
+                    } label: {
+                        Text("LOVE")
+                            .padding()
+                            .background(.pink)
+                            .cornerRadius(10)
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
-
+    
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
+    
 }
