@@ -41,12 +41,21 @@ struct ContentView: View {
                 
                 ZStack{
                     VStack{
-                        Image("london_1")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 300)
-                            .cornerRadius(15)
                         
+                        ScrollView(.horizontal) {
+                            HStack{
+                                Image("london_1")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 300)
+                                    .cornerRadius(15)
+                                Image("paris_1")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 300)
+                                    .cornerRadius(15)
+                            }
+                        }
                         HStack {
                             Text("London, United Kingdom")
                             
@@ -91,9 +100,10 @@ struct ContentView: View {
                     VStack{
                         Image("praha_1")
                             .resizable()
-                            .aspectRatio(contentMode: .fit)
+                            .aspectRatio(contentMode: .fill)
                             .frame(width: 300)
                             .cornerRadius(15)
+                            .clipped()
                         
                         HStack {
                             Text("Praha, Czech Republic")
