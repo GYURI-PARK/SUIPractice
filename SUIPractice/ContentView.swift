@@ -49,7 +49,7 @@ struct ContentView: View {
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 300)
                                     .cornerRadius(15)
-                                Image("paris_1")
+                                Image("praha_1")
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 300)
@@ -63,9 +63,9 @@ struct ContentView: View {
                                 isFilling.toggle()
                             } label: {
                                 Text("SAVE")
-                                    .padding(10)
-                                    .foregroundColor(.red)
-                                    .background(Color("DorisColor"))
+                                    .padding(5)
+                                    .foregroundColor(.green)
+                                    .background(.black)
                                     .cornerRadius(10)
                             }
                         }
@@ -87,9 +87,9 @@ struct ContentView: View {
                                 isFilling.toggle()
                             } label: {
                                 Text("SAVE")
-                                    .padding(10)
-                                    .foregroundColor(.red)
-                                    .background(Color("DorisColor"))
+                                    .padding(5)
+                                    .foregroundColor(.green)
+                                    .background(.black)
                                     .cornerRadius(10)
                             }
                         }
@@ -112,9 +112,9 @@ struct ContentView: View {
                                 isFilling.toggle()
                             } label: {
                                 Text("SAVE")
-                                    .padding(10)
+                                    .padding(5)
                                     .foregroundColor(.green)
-                                    .background(Color("DorisColor"))
+                                    .background(.black)
                                     .cornerRadius(10)
                             }
                         }
@@ -136,9 +136,9 @@ struct ContentView: View {
                                 isFilling.toggle()
                             } label: {
                                 Text("SAVE")
-                                    .padding(10)
+                                    .padding(5)
                                     .foregroundColor(.green)
-                                    .background(Color("DorisColor"))
+                                    .background(.black)
                                     .cornerRadius(10)
                             }
                         }
@@ -160,9 +160,9 @@ struct ContentView: View {
                                 isFilling.toggle()
                             } label: {
                                 Text("SAVE")
-                                    .padding(10)
+                                    .padding(5)
                                     .foregroundColor(.green)
-                                    .background(Color("DorisColor"))
+                                    .background(.black)
                                     .cornerRadius(10)
                             }
                         }
@@ -184,9 +184,9 @@ struct ContentView: View {
                                 isFilling.toggle()
                             } label: {
                                 Text("SAVE")
-                                    .padding(10)
+                                    .padding(5)
                                     .foregroundColor(.green)
-                                    .background(Color("DorisColor"))
+                                    .background(.black)
                                     .cornerRadius(10)
                             }
                         }
@@ -208,9 +208,9 @@ struct ContentView: View {
                                 isFilling.toggle()
                             } label: {
                                 Text("SAVE")
-                                    .padding(10)
+                                    .padding(5)
                                     .foregroundColor(.green)
-                                    .background(Color("DorisColor"))
+                                    .background(.black)
                                     .cornerRadius(10)
                             }
                         }
