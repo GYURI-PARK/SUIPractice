@@ -9,8 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var strength: Double? = 0
+//    @State var strength: Double? = 0
     @State var isFilling: Bool = false
+    @State var isShowingModal: Bool = false
     
     var body: some View {
         
@@ -19,6 +20,18 @@ struct ContentView: View {
                 HStack {
                     Image(systemName: "heart")
                     Text("Asia")
+                    
+                    Button{
+                        isShowingModal = true
+                    } label: {
+                        Text("Show Country")
+                    }
+                    .sheet(isPresented: $isShowingModal) {
+                        ZStack {
+                            Color.blue.ignoresSafeArea()
+                            Text("Modal view")
+                        }
+                    }
                 }
             }
             Section {
