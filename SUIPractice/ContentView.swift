@@ -12,6 +12,7 @@ struct ContentView: View {
 //    @State var strength: Double? = 0
     @State var isFilling: Bool = false
     @State var isShowingModal: Bool = false
+    @State var isShowingAlert: Bool = false
     
     var body: some View {
         
@@ -38,6 +39,15 @@ struct ContentView: View {
                 HStack {
                     Image(systemName: "heart")
                     Text("America")
+                    
+                    Button{
+                        isShowingAlert = true
+                    } label: {
+                        Text("Alert test")
+                    }
+                    .alert(isPresented: $isShowingAlert) {
+                        Alert(title: Text("this is alert"), primaryButton: .cancel(), secondaryButton: .default((Text("OK"))))
+                    }
                 }
             }
             Section {
@@ -247,7 +257,21 @@ struct ContentView: View {
                     }
                 }
             }
+            TabView{
+                Text("this is the first tab")
+                    .tabItem{
+                        Image(systemName: "bolt")
+                        Text("home")
+                    }
+                
+                Text("This is the second tab")
+                    .tabItem{
+                        Image(systemName: "heart")
+                        Text("Like")
+                    }
+            }
         }
+      
     }
     
     struct ContentView_Previews: PreviewProvider {
