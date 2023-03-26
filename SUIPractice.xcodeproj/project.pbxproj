@@ -17,6 +17,7 @@
 		C188D3AB29CFF1EA00FE2FAE /* NewToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3AA29CFF1EA00FE2FAE /* NewToggle.swift */; };
 		C188D3AE29CFF3C400FE2FAE /* ModalAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3AD29CFF3C400FE2FAE /* ModalAlert.swift */; };
 		C188D3B029CFF98000FE2FAE /* NewTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3AF29CFF98000FE2FAE /* NewTabView.swift */; };
+		C188D3B329CFFBC600FE2FAE /* NewTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3B229CFFBC600FE2FAE /* NewTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		C188D3AA29CFF1EA00FE2FAE /* NewToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToggle.swift; sourceTree = "<group>"; };
 		C188D3AD29CFF3C400FE2FAE /* ModalAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalAlert.swift; sourceTree = "<group>"; };
 		C188D3AF29CFF98000FE2FAE /* NewTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTabView.swift; sourceTree = "<group>"; };
+		C188D3B229CFFBC600FE2FAE /* NewTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		C12AA7AB29CC2E4C008DDAAE /* SUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				C188D3B129CFFBB400FE2FAE /* Text */,
 				C188D3AC29CFF35A00FE2FAE /* View */,
 				C188D3A729CFF12B00FE2FAE /* Button */,
 				C12AA7AC29CC2E4C008DDAAE /* SUIPracticeApp.swift */,
@@ -150,6 +153,14 @@
 				C188D3AF29CFF98000FE2FAE /* NewTabView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C188D3B129CFFBB400FE2FAE /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				C188D3B229CFFBC600FE2FAE /* NewTextField.swift */,
+			);
+			path = Text;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +295,7 @@
 			files = (
 				C188D3B029CFF98000FE2FAE /* NewTabView.swift in Sources */,
 				C188D3AE29CFF3C400FE2FAE /* ModalAlert.swift in Sources */,
+				C188D3B329CFFBC600FE2FAE /* NewTextField.swift in Sources */,
 				C188D3AB29CFF1EA00FE2FAE /* NewToggle.swift in Sources */,
 				C12AA7AF29CC2E4C008DDAAE /* ContentView.swift in Sources */,
 				C12AA7AD29CC2E4C008DDAAE /* SUIPracticeApp.swift in Sources */,
