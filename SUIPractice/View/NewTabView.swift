@@ -14,15 +14,17 @@ struct NewTabView: View {
             Text("this is the first tab")
                 .tabItem{
                     Image(systemName: "bolt")
-                    Text("home")
-                }
+                    Text("home")                }
             
-            
-            Text("This is the second tab")
-                .tabItem{
-                    Image(systemName: "heart")
-                    Text("Like")
-                }
+            ZStack{
+                Color.black.ignoresSafeArea()
+                Text("This is the second tab")
+                    .colorInvert()
+            }
+                    .tabItem{
+                            Image(systemName: "heart")
+                            Text("Like")
+                        }
         }
     }
 }

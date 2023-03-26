@@ -18,7 +18,7 @@ struct ModalAlert: View {
             Button{
                 isShowingModal = true
             } label: {
-                Text("Show Country")
+                Text("Modal")
             }
             .sheet(isPresented: $isShowingModal) {
                 ZStack {
