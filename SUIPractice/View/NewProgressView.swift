@@ -9,8 +9,8 @@ import SwiftUI
 
 struct NewProgressView: View {
     
-    @State var progress: Double = 0
-    @State var num: Int = 0
+    @State var progress: Double = 10
+    @State var num: Int = 1
     
     var body: some View {
         VStack{
