@@ -20,7 +20,7 @@ struct NewTextField: View {
                 TextField("Enter your ID", text: $userID)
                     .textFieldStyle(.roundedBorder)
                 Text("Password")
-                TextField("Enter your Password", text: $password)
+                SecureField("Enter your Password", text: $password)
                     .textFieldStyle(.roundedBorder)
             }
             
@@ -29,7 +29,6 @@ struct NewTextField: View {
                 Text("Your ID is \(userID)")
             }
             
-            // textField 탭 했을 때 키보드 종류 바꿔주기
             
         }
     }
