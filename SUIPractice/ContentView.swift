@@ -235,19 +235,6 @@ struct ContentView: View {
                     }
                 }
             }
-            TabView{
-                Text("this is the first tab")
-                    .tabItem{
-                        Image(systemName: "bolt")
-                        Text("home")
-                    }
-                
-                Text("This is the second tab")
-                    .tabItem{
-                        Image(systemName: "heart")
-                        Text("Like")
-                    }
-            }
         }
       
     }
