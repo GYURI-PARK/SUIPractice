@@ -13,8 +13,9 @@ struct NewTabView: View {
         TabView{
             Text("this is the first tab")
                 .tabItem{
-                    Image(systemName: "bolt")
-                    Text("home")                }
+                    Label("Good", systemImage: "bolt")
+                    
+                }
             
             ZStack{
                 Color.black.ignoresSafeArea()
@@ -22,8 +23,7 @@ struct NewTabView: View {
                     .colorInvert()
             }
                     .tabItem{
-                            Image(systemName: "heart")
-                            Text("Like")
+                        Label("Like", systemImage: "heart")
                         }
         }
     }
