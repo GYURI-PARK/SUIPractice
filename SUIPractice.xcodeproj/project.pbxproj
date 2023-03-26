@@ -19,6 +19,7 @@
 		C188D3B029CFF98000FE2FAE /* NewTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3AF29CFF98000FE2FAE /* NewTabView.swift */; };
 		C188D3B329CFFBC600FE2FAE /* NewTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3B229CFFBC600FE2FAE /* NewTextField.swift */; };
 		C188D3B529D003A600FE2FAE /* NewSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3B429D003A600FE2FAE /* NewSecureField.swift */; };
+		C188D3B729D074F100FE2FAE /* NewProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3B629D074F100FE2FAE /* NewProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		C188D3AF29CFF98000FE2FAE /* NewTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTabView.swift; sourceTree = "<group>"; };
 		C188D3B229CFFBC600FE2FAE /* NewTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTextField.swift; sourceTree = "<group>"; };
 		C188D3B429D003A600FE2FAE /* NewSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSecureField.swift; sourceTree = "<group>"; };
+		C188D3B629D074F100FE2FAE /* NewProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				C188D3AF29CFF98000FE2FAE /* NewTabView.swift */,
+				C188D3B629D074F100FE2FAE /* NewProgressView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			files = (
 				C188D3B029CFF98000FE2FAE /* NewTabView.swift in Sources */,
 				C188D3AE29CFF3C400FE2FAE /* ModalAlert.swift in Sources */,
+				C188D3B729D074F100FE2FAE /* NewProgressView.swift in Sources */,
 				C188D3B329CFFBC600FE2FAE /* NewTextField.swift in Sources */,
 				C188D3AB29CFF1EA00FE2FAE /* NewToggle.swift in Sources */,
 				C12AA7AF29CC2E4C008DDAAE /* ContentView.swift in Sources */,
