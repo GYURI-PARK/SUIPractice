@@ -11,8 +11,6 @@ struct ContentView: View {
     
 //    @State var strength: Double? = 0
     @State var isFilling: Bool = false
-    @State var isShowingModal: Bool = false
-    @State var isShowingAlert: Bool = false
     
     var body: some View {
         
@@ -21,18 +19,6 @@ struct ContentView: View {
                 HStack {
                     Image(systemName: "heart")
                     Text("Asia")
-                    
-                    Button{
-                        isShowingModal = true
-                    } label: {
-                        Text("Show Country")
-                    }
-                    .sheet(isPresented: $isShowingModal) {
-                        ZStack {
-                            Color.blue.ignoresSafeArea()
-                            Text("Modal view")
-                        }
-                    }
                 }
             }
             Section {
@@ -40,14 +26,6 @@ struct ContentView: View {
                     Image(systemName: "heart")
                     Text("America")
                     
-                    Button{
-                        isShowingAlert = true
-                    } label: {
-                        Text("Alert test")
-                    }
-                    .alert(isPresented: $isShowingAlert) {
-                        Alert(title: Text("this is alert"), primaryButton: .cancel(), secondaryButton: .default((Text("OK"))))
-                    }
                 }
             }
             Section {
