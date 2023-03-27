@@ -24,6 +24,7 @@
 		C188D3BB29D0B4E000FE2FAE /* NewNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3BA29D0B4E000FE2FAE /* NewNavigationStack.swift */; };
 		C188D3BF29D167BE00FE2FAE /* NewCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3BE29D167BE00FE2FAE /* NewCapture.swift */; };
 		C188D3C229D16A5800FE2FAE /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3C129D16A5800FE2FAE /* LoginTest.swift */; };
+		C188D3C429D1864200FE2FAE /* NewPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3C329D1864200FE2FAE /* NewPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		C188D3BA29D0B4E000FE2FAE /* NewNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNavigationStack.swift; sourceTree = "<group>"; };
 		C188D3BE29D167BE00FE2FAE /* NewCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCapture.swift; sourceTree = "<group>"; };
 		C188D3C129D16A5800FE2FAE /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
+		C188D3C329D1864200FE2FAE /* NewPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			children = (
 				C188D3AA29CFF1EA00FE2FAE /* NewToggle.swift */,
 				C188D3AD29CFF3C400FE2FAE /* ModalAlert.swift */,
+				C188D3C329D1864200FE2FAE /* NewPicker.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				C188D3C229D16A5800FE2FAE /* LoginTest.swift in Sources */,
 				C188D3B029CFF98000FE2FAE /* NewTabView.swift in Sources */,
 				C188D3AE29CFF3C400FE2FAE /* ModalAlert.swift in Sources */,
+				C188D3C429D1864200FE2FAE /* NewPicker.swift in Sources */,
 				C188D3B729D074F100FE2FAE /* NewProgressView.swift in Sources */,
 				C188D3B329CFFBC600FE2FAE /* NewTextField.swift in Sources */,
 				C188D3AB29CFF1EA00FE2FAE /* NewToggle.swift in Sources */,
