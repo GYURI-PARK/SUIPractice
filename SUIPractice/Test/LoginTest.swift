@@ -12,63 +12,88 @@ struct LoginTest: View {
     @State var userID: String = ""
     @State var password: String = ""
     @State var isVisible: Bool = true
-    @State var isShowingModal: Bool = true
+    @State var isShowingModal: Bool = false
+    @State var isShowingAlert: Bool = false
     
     var body: some View {
-        VStack{
-            Label {
-                TextField("User ID", text: $userID)
-            } icon: {
-                Image(systemName: "person.fill")
-            }
+        
+        ZStack{
             
-            Divider()
-            
-            HStack{
+            Color.black.edgesIgnoringSafeArea(.all)
+            VStack{
+                
+                Text("gyurisinZorba.com")
+                    .font(.title)
+                    .fontWeight(.black)
+                    .foregroundColor(Color.blue)
+                
+                
+                    .padding(.bottom, 300)
+                
                 Label {
-                    if isVisible{
-                        TextField("Password", text: $password)
-                    } else{
-                        SecureField("Password", text: $password)
-                    }
+                    TextField("User ID", text: $userID)
                 } icon: {
-                    Image(systemName: "lock.fill")
+                    Image(systemName: "person.fill")
                 }
                 
+                .frame(width: 300, alignment: .center)
+                .padding()
+                .background(RoundedRectangle(cornerRadius: 15).strokeBorder())
+                .foregroundColor(Color.blue)
                 
-                Button{
-                    isVisible.toggle()
+                
+                HStack{
+                    Label {
+                        if isVisible{
+                            TextField("Password", text: $password)
+                        } else{
+                            SecureField("Password", text: $password)
+                        }
+                    } icon: {
+                        Image(systemName: "lock.fill")
+                    }
+                    
+                    Button{
+                        isVisible.toggle()
+                    }label: {
+                        if isVisible {
+                            Image(systemName: "lock.open")
+                        } else{
+                            Image(systemName: "lock")
+                        }
+                    }
+                    
+                    
+                    .sheet(isPresented: $isShowingModal) {
+                        ZStack {
+                            Color.blue.ignoresSafeArea()
+                            Text("Doris 로그인 완료~~~")
+                                .foregroundColor(.black)
+                        }
+                    }
+                }
+                .frame(width: 300, alignment: .center)
+                .padding()
+                .background(RoundedRectangle(cornerRadius: 15).strokeBorder())
+                .foregroundColor(Color.blue)
+                
+                .padding(.bottom, 20)
+                
+                Button {
+                    if userID == "Doris" && password == "1234" {
+                        isShowingModal = true
+                    } else {
+                        isShowingModal = false
+                        isShowingAlert = true
+                    }
                 }label: {
-                    if isVisible {
-                        Image(systemName: "lock.open")
-                    } else{
-                        Image(systemName: "lock")
-                    }
+                    Text("Sign in")
                 }
-                
-                
-                .sheet(isPresented: $isShowingModal) {
-                    ZStack {
-                        Color.black.ignoresSafeArea()
-                        Text("Modal view")
-                            .foregroundColor(.white)
-                    }
+                .alert(isPresented: $isShowingAlert) {
+                    Alert(title: Text("잘못된 로그인 정보입니다."), primaryButton: .cancel(), secondaryButton: .default((Text("OK"))))
                 }
-                
-                
-            }
-            
-            Divider()
-            
-            Button {
-                isShowingModal = true
-            }label: {
-                Text("Sign in")
             }
         }
-        
-        .padding()
-        
     }
 }
 
