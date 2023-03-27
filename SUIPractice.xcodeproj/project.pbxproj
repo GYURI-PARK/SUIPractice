@@ -21,6 +21,7 @@
 		C188D3B529D003A600FE2FAE /* NewSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3B429D003A600FE2FAE /* NewSecureField.swift */; };
 		C188D3B729D074F100FE2FAE /* NewProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3B629D074F100FE2FAE /* NewProgressView.swift */; };
 		C188D3B929D0B2B900FE2FAE /* NewNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3B829D0B2B900FE2FAE /* NewNavigationView.swift */; };
+		C188D3BB29D0B4E000FE2FAE /* NewNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3BA29D0B4E000FE2FAE /* NewNavigationStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		C188D3B429D003A600FE2FAE /* NewSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSecureField.swift; sourceTree = "<group>"; };
 		C188D3B629D074F100FE2FAE /* NewProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProgressView.swift; sourceTree = "<group>"; };
 		C188D3B829D0B2B900FE2FAE /* NewNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNavigationView.swift; sourceTree = "<group>"; };
+		C188D3BA29D0B4E000FE2FAE /* NewNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNavigationStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				C188D3AF29CFF98000FE2FAE /* NewTabView.swift */,
 				C188D3B629D074F100FE2FAE /* NewProgressView.swift */,
 				C188D3B829D0B2B900FE2FAE /* NewNavigationView.swift */,
+				C188D3BA29D0B4E000FE2FAE /* NewNavigationStack.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C188D3B929D0B2B900FE2FAE /* NewNavigationView.swift in Sources */,
+				C188D3BB29D0B4E000FE2FAE /* NewNavigationStack.swift in Sources */,
 				C188D3B029CFF98000FE2FAE /* NewTabView.swift in Sources */,
 				C188D3AE29CFF3C400FE2FAE /* ModalAlert.swift in Sources */,
 				C188D3B729D074F100FE2FAE /* NewProgressView.swift in Sources */,
