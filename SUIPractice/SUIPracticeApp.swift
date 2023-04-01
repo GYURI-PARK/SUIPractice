@@ -11,7 +11,7 @@ import SwiftUI
 struct SUIPracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BlogUpload()
         }
     }
 }

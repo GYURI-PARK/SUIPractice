@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D161C5E29D7E7100026F57C /* BlogUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D161C5D29D7E7100026F57C /* BlogUpload.swift */; };
 		C12AA7AD29CC2E4C008DDAAE /* SUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12AA7AC29CC2E4C008DDAAE /* SUIPracticeApp.swift */; };
 		C12AA7AF29CC2E4C008DDAAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12AA7AE29CC2E4C008DDAAE /* ContentView.swift */; };
 		C12AA7B129CC2E4D008DDAAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12AA7B029CC2E4D008DDAAE /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D161C5D29D7E7100026F57C /* BlogUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogUpload.swift; sourceTree = "<group>"; };
 		C12AA7A929CC2E4C008DDAAE /* SUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C12AA7AC29CC2E4C008DDAAE /* SUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIPracticeApp.swift; sourceTree = "<group>"; };
 		C12AA7AE29CC2E4C008DDAAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				C188D3C129D16A5800FE2FAE /* LoginTest.swift */,
+				5D161C5D29D7E7100026F57C /* BlogUpload.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				C188D3B729D074F100FE2FAE /* NewProgressView.swift in Sources */,
 				C188D3B329CFFBC600FE2FAE /* NewTextField.swift in Sources */,
 				C188D3AB29CFF1EA00FE2FAE /* NewToggle.swift in Sources */,
+				5D161C5E29D7E7100026F57C /* BlogUpload.swift in Sources */,
 				C12AA7AF29CC2E4C008DDAAE /* ContentView.swift in Sources */,
 				C188D3B529D003A600FE2FAE /* NewSecureField.swift in Sources */,
 				C12AA7AD29CC2E4C008DDAAE /* SUIPracticeApp.swift in Sources */,
