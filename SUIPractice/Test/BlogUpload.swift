@@ -8,17 +8,14 @@
 import SwiftUI
 
 struct BlogUpload: View {
+    var str = "A"
+    
     var body: some View {
         VStack{
-            Rectangle()
-                .foregroundColor(.red)
-                .frame(height: UIScreen.main.bounds.height / 2)
-                
-            Spacer(minLength: 0)
-            
-            Rectangle()
-                .foregroundColor(.blue)
-                .frame(height: UIScreen.main.bounds.height / 2)
+            Text(str)
+            Button("Change") {
+                str = "B"
+            }
         }
     }
 }
