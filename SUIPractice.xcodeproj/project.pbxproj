@@ -27,6 +27,8 @@
 		C188D3C229D16A5800FE2FAE /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3C129D16A5800FE2FAE /* LoginTest.swift */; };
 		C188D3C429D1864200FE2FAE /* NewPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3C329D1864200FE2FAE /* NewPicker.swift */; };
 		C188D3C629D1ADE600FE2FAE /* NewHexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3C529D1ADE600FE2FAE /* NewHexColor.swift */; };
+		C18A659629DC6D2A00C0C0F2 /* MyBlog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A659529DC6D2A00C0C0F2 /* MyBlog.swift */; };
+		C18A659829DC6D3F00C0C0F2 /* EnumPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A659729DC6D3F00C0C0F2 /* EnumPractice.swift */; };
 		C1D6FBFB29DAA142001B747A /* MyNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D6FBFA29DAA142001B747A /* MyNavigationLink.swift */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +73,8 @@
 		C188D3C129D16A5800FE2FAE /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
 		C188D3C329D1864200FE2FAE /* NewPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPicker.swift; sourceTree = "<group>"; };
 		C188D3C529D1ADE600FE2FAE /* NewHexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHexColor.swift; sourceTree = "<group>"; };
+		C18A659529DC6D2A00C0C0F2 /* MyBlog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBlog.swift; sourceTree = "<group>"; };
+		C18A659729DC6D3F00C0C0F2 /* EnumPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumPractice.swift; sourceTree = "<group>"; };
 		C1D6FBFA29DAA142001B747A /* MyNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -197,6 +201,8 @@
 				C188D3C129D16A5800FE2FAE /* LoginTest.swift */,
 				5D161C5D29D7E7100026F57C /* BlogUpload.swift */,
 				C1D6FBFA29DAA142001B747A /* MyNavigationLink.swift */,
+				C18A659529DC6D2A00C0C0F2 /* MyBlog.swift */,
+				C18A659729DC6D3F00C0C0F2 /* EnumPractice.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -331,6 +337,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C18A659629DC6D2A00C0C0F2 /* MyBlog.swift in Sources */,
+				C18A659829DC6D3F00C0C0F2 /* EnumPractice.swift in Sources */,
 				C188D3BF29D167BE00FE2FAE /* NewCapture.swift in Sources */,
 				C188D3B929D0B2B900FE2FAE /* NewNavigationView.swift in Sources */,
 				C1D6FBFB29DAA142001B747A /* MyNavigationLink.swift in Sources */,
