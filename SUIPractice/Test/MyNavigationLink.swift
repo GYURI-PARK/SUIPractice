@@ -35,6 +35,16 @@ struct MyNavigationLink: View {
 //                }
 //            }
 
+//ForEach(content.answers, id:\.self){ answer in
+//    NavigationLink(destination: SlideAnswerView(scores: $scores, count: $count,pageStatus:$pageStatus, answer: answer))
+//}
+
+
+//
+//ForEach(content.answers, id: \.self){ andswer in
+//    NavigationLink(destination: <#T##() -> _#>, label: <#T##() -> _#>)
+//}
+
 
 struct ColorDetail: View {
     
