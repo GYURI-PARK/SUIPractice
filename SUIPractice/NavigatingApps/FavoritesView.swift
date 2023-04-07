@@ -34,8 +34,13 @@ struct FavoritesView: View {
                 .font(.title2)
             
             HStack(spacing: 30) {
-                
+                ForEach(information.colors, id: \.self) {color in
+                    color
+                        .frame(width: 70, height: 70)
+                        .cornerRadius(10)
+                }
             }
+            .padding()
         }
     }
 }

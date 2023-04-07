@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct FunFactsView: View {
+    
+    @State private var funFact = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("FunFacts")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+            
+            Text(funFact)
+                .padding()
+                .font(.title)
+                .frame(minHeight: 400)
+            
+            Button("Show Random Fact") {
+                funFact = information.funFacts.randomElement()!
+            }
+        }
+        .padding()
     }
 }
 
