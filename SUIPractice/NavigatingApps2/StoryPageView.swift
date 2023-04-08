@@ -23,8 +23,8 @@ struct StoryPageView: View {
     }
 }
 
-struct StoryPageView_Previews: PreviewProvider {
-    static var previews: some View {
-        StoryPageView()
-    }
-}
+//struct StoryPageView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        StoryPageView()
+//    }
+//}

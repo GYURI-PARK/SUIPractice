@@ -202,8 +202,8 @@ let story = Story(pages: [
         choices: []
     ),
 ])
-struct MyStory_Previews: PreviewProvider {
-    static var previews: some View {
-        MyStory()
-    }
-}
+//struct MyStory_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MyStory()
+//    }
+//}
