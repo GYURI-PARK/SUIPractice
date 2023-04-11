@@ -10,7 +10,7 @@ import SwiftUI
 struct ColorChoice: View {
     
     @State private var selectedColor = Color.white
-    
+        
     var body: some View {
         ZStack{
             VStack{
@@ -29,20 +29,9 @@ struct ColorChoice: View {
                             .foregroundColor(Color(0xCECECE))
                             .frame(width: 400, height: 60)
                         
-                        ZStack{
-                            
-                            // MyColorPicker()
-                            MyColorPicker(selectedColor: $selectedColor)
-                            
-                            RoundedRectangle(cornerRadius: 50)
-                            
-                                .foregroundColor(selectedColor)
-                                .frame(width: 300, height: 300)
-                            
-                                .shadow(radius: 10)
-                                .padding(.top, 50)
-                            
-                        }
+                        ColorPickerView()
+                        
+
                     }
                     
                     VStack{
@@ -56,10 +45,7 @@ struct ColorChoice: View {
                             .foregroundColor(Color(0xCECECE))
                             .frame(width: 400, height: 60)
                         
-                        RoundedRectangle(cornerRadius: 50)
-                            .frame(width: 300, height: 300)
-                            .shadow(radius: 10)
-                            .padding(.top, 50)
+                        ColorPickerView()
                         
                     }
                     
@@ -74,10 +60,7 @@ struct ColorChoice: View {
                             .foregroundColor(Color(0xCECECE))
                             .frame(width: 400, height: 60)
                         
-                        RoundedRectangle(cornerRadius: 50)
-                            .frame(width: 300, height: 300)
-                            .shadow(color: Color(0xCECECE), radius: 10)
-                            .padding(.top, 50)
+                        ColorPickerView()
                     }
                 }
                 Spacer()
@@ -85,11 +68,13 @@ struct ColorChoice: View {
                 Button("Next"){
                     // ParticleChoice()
                 }
-                .font(.system(size: 50))
-                .foregroundColor(.black)
+                .font(.system(size: 30).bold())
+                .foregroundColor(.white)
                 .padding(.horizontal, 50)
                 .padding(.vertical, 15)
-                .cornerRadius(15)
+                .background(Color.black)
+                .cornerRadius(25)
+                .shadow(radius: 10)
 
 
 //                NavigationView {
@@ -104,6 +89,50 @@ struct ColorChoice: View {
                 
                 Spacer()
                 
+            }
+        }
+    }
+}
+
+struct ColorPickerView: View {
+    @State private var selectedColor = CGColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.9)
+    @State var colorList: [CGFloat] = []
+    @State var colorList2: [CGFloat] = []
+    @State var colorList3: [CGFloat] = []
+    
+    var body: some View {
+        ZStack{
+            RoundedRectangle(cornerRadius: 50)
+                .fill(Color(selectedColor))
+                .overlay(Image(systemName: "paintpalette.fill").offset(x: -20, y: 0)
+                    .foregroundColor(.white)
+                    .font(.largeTitle))
+            
+                .shadow(radius: 10)
+                .frame(width: 300, height: 300)
+                .padding(.top, 50)
+            
+            ColorPicker("", selection: $selectedColor)
+                .labelsHidden()
+                .offset(x:30, y: 28)
+                .onChange(of: selectedColor) { newValue in
+                    if ((newValue.components) != nil) {
+                        for i in newValue.components! {
+                            colorList.append(i)
+                        }
+                    }
+//                    for j in colorList {
+//                        colorList2.append(j)
+//                    }
+                    
+//                    for k in colorList2 {
+//                        colorList3.append(k)
+//                    }
+                }
+            VStack{
+                ForEach(colorList, id:\.self){
+                    Text("\($0)")
+                }
             }
         }
     }

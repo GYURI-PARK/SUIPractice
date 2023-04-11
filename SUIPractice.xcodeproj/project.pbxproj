@@ -46,6 +46,7 @@
 		C1E1142829E5416D00ABBD2E /* ColorPickerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1142729E5416D00ABBD2E /* ColorPickerEx.swift */; };
 		C1E1142B29E58FBA00ABBD2E /* ColorChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1142A29E58FBA00ABBD2E /* ColorChoice.swift */; };
 		C1E1142D29E58FCF00ABBD2E /* MyColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1142C29E58FCF00ABBD2E /* MyColorPicker.swift */; };
+		C1E1142F29E5BDCC00ABBD2E /* BackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1142E29E5BDCC00ABBD2E /* BackGroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,7 @@
 		C1E1142729E5416D00ABBD2E /* ColorPickerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerEx.swift; sourceTree = "<group>"; };
 		C1E1142A29E58FBA00ABBD2E /* ColorChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChoice.swift; sourceTree = "<group>"; };
 		C1E1142C29E58FCF00ABBD2E /* MyColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorPicker.swift; sourceTree = "<group>"; };
+		C1E1142E29E5BDCC00ABBD2E /* BackGroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +293,7 @@
 			children = (
 				C1E1142A29E58FBA00ABBD2E /* ColorChoice.swift */,
 				C1E1142C29E58FCF00ABBD2E /* MyColorPicker.swift */,
+				C1E1142E29E5BDCC00ABBD2E /* BackGroundView.swift */,
 			);
 			path = WWDC;
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 				C18A65A029DDA20E00C0C0F2 /* HomeView.swift in Sources */,
 				5D161C5E29D7E7100026F57C /* BlogUpload.swift in Sources */,
 				C12AA7AF29CC2E4C008DDAAE /* ContentView.swift in Sources */,
+				C1E1142F29E5BDCC00ABBD2E /* BackGroundView.swift in Sources */,
 				C188D3B529D003A600FE2FAE /* NewSecureField.swift in Sources */,
 				C12AA7AD29CC2E4C008DDAAE /* SUIPracticeApp.swift in Sources */,
 				C18A65B629E1BCF600C0C0F2 /* TabThisButton.swift in Sources */,
