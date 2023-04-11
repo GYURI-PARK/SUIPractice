@@ -43,6 +43,9 @@
 		C18A65B629E1BCF600C0C0F2 /* TabThisButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A65B529E1BCF600C0C0F2 /* TabThisButton.swift */; };
 		C1D6FBFB29DAA142001B747A /* MyNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D6FBFA29DAA142001B747A /* MyNavigationLink.swift */; };
 		C1E1142529E5316900ABBD2E /* CustomColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1142429E5316900ABBD2E /* CustomColorPicker.swift */; };
+		C1E1142829E5416D00ABBD2E /* ColorPickerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1142729E5416D00ABBD2E /* ColorPickerEx.swift */; };
+		C1E1142B29E58FBA00ABBD2E /* ColorChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1142A29E58FBA00ABBD2E /* ColorChoice.swift */; };
+		C1E1142D29E58FCF00ABBD2E /* MyColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1142C29E58FCF00ABBD2E /* MyColorPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +105,9 @@
 		C18A65B529E1BCF600C0C0F2 /* TabThisButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabThisButton.swift; sourceTree = "<group>"; };
 		C1D6FBFA29DAA142001B747A /* MyNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationLink.swift; sourceTree = "<group>"; };
 		C1E1142429E5316900ABBD2E /* CustomColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorPicker.swift; sourceTree = "<group>"; };
+		C1E1142729E5416D00ABBD2E /* ColorPickerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerEx.swift; sourceTree = "<group>"; };
+		C1E1142A29E58FBA00ABBD2E /* ColorChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChoice.swift; sourceTree = "<group>"; };
+		C1E1142C29E58FCF00ABBD2E /* MyColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +158,8 @@
 		C12AA7AB29CC2E4C008DDAAE /* SUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				C1E1142929E58F9300ABBD2E /* WWDC */,
+				C1E1142629E5415700ABBD2E /* Color */,
 				C18A65B029E1BAAA00C0C0F2 /* Animation */,
 				C18A65A729DFE16300C0C0F2 /* NavigatingApps2 */,
 				C18A659929DDA04000C0C0F2 /* NavigatingApps */,
@@ -219,7 +227,6 @@
 			children = (
 				C188D3B229CFFBC600FE2FAE /* NewTextField.swift */,
 				C188D3B429D003A600FE2FAE /* NewSecureField.swift */,
-				C188D3C529D1ADE600FE2FAE /* NewHexColor.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -265,9 +272,27 @@
 			children = (
 				C18A65B129E1BAB800C0C0F2 /* MusicNotes.swift */,
 				C18A65B529E1BCF600C0C0F2 /* TabThisButton.swift */,
-				C1E1142429E5316900ABBD2E /* CustomColorPicker.swift */,
 			);
 			path = Animation;
+			sourceTree = "<group>";
+		};
+		C1E1142629E5415700ABBD2E /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				C1E1142429E5316900ABBD2E /* CustomColorPicker.swift */,
+				C188D3C529D1ADE600FE2FAE /* NewHexColor.swift */,
+				C1E1142729E5416D00ABBD2E /* ColorPickerEx.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		C1E1142929E58F9300ABBD2E /* WWDC */ = {
+			isa = PBXGroup;
+			children = (
+				C1E1142A29E58FBA00ABBD2E /* ColorChoice.swift */,
+				C1E1142C29E58FCF00ABBD2E /* MyColorPicker.swift */,
+			);
+			path = WWDC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C18A65A929DFE19300C0C0F2 /* MyStory.swift in Sources */,
+				C1E1142D29E58FCF00ABBD2E /* MyColorPicker.swift in Sources */,
 				C18A65A229DDA22100C0C0F2 /* StoryView.swift in Sources */,
 				C18A65A429DDA23100C0C0F2 /* FunFactsView.swift in Sources */,
 				C18A65AB29DFE29700C0C0F2 /* StoryModels.swift in Sources */,
@@ -408,6 +434,7 @@
 				C18A659829DC6D3F00C0C0F2 /* EnumPractice.swift in Sources */,
 				C188D3BF29D167BE00FE2FAE /* NewCapture.swift in Sources */,
 				C188D3B929D0B2B900FE2FAE /* NewNavigationView.swift in Sources */,
+				C1E1142829E5416D00ABBD2E /* ColorPickerEx.swift in Sources */,
 				C18A659D29DDA10700C0C0F2 /* MainView2.swift in Sources */,
 				C18A65AD29DFE36A00C0C0F2 /* StoryView2.swift in Sources */,
 				C18A65A629DDA28100C0C0F2 /* Data.swift in Sources */,
@@ -430,6 +457,7 @@
 				C12AA7AD29CC2E4C008DDAAE /* SUIPracticeApp.swift in Sources */,
 				C18A65B629E1BCF600C0C0F2 /* TabThisButton.swift in Sources */,
 				C18A659B29DDA04F00C0C0F2 /* FavoritesView.swift in Sources */,
+				C1E1142B29E58FBA00ABBD2E /* ColorChoice.swift in Sources */,
 				C18A65AF29E0AB7200C0C0F2 /* StoryPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
