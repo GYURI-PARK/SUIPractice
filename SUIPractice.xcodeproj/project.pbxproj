@@ -42,6 +42,7 @@
 		C18A65B229E1BAB800C0C0F2 /* MusicNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A65B129E1BAB800C0C0F2 /* MusicNotes.swift */; };
 		C18A65B629E1BCF600C0C0F2 /* TabThisButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A65B529E1BCF600C0C0F2 /* TabThisButton.swift */; };
 		C1D6FBFB29DAA142001B747A /* MyNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D6FBFA29DAA142001B747A /* MyNavigationLink.swift */; };
+		C1E1142529E5316900ABBD2E /* CustomColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1142429E5316900ABBD2E /* CustomColorPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,7 @@
 		C18A65B129E1BAB800C0C0F2 /* MusicNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicNotes.swift; sourceTree = "<group>"; };
 		C18A65B529E1BCF600C0C0F2 /* TabThisButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabThisButton.swift; sourceTree = "<group>"; };
 		C1D6FBFA29DAA142001B747A /* MyNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationLink.swift; sourceTree = "<group>"; };
+		C1E1142429E5316900ABBD2E /* CustomColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +265,7 @@
 			children = (
 				C18A65B129E1BAB800C0C0F2 /* MusicNotes.swift */,
 				C18A65B529E1BCF600C0C0F2 /* TabThisButton.swift */,
+				C1E1142429E5316900ABBD2E /* CustomColorPicker.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 				C188D3AE29CFF3C400FE2FAE /* ModalAlert.swift in Sources */,
 				C188D3C429D1864200FE2FAE /* NewPicker.swift in Sources */,
 				C188D3B729D074F100FE2FAE /* NewProgressView.swift in Sources */,
+				C1E1142529E5316900ABBD2E /* CustomColorPicker.swift in Sources */,
 				C188D3B329CFFBC600FE2FAE /* NewTextField.swift in Sources */,
 				C188D3AB29CFF1EA00FE2FAE /* NewToggle.swift in Sources */,
 				C18A65A029DDA20E00C0C0F2 /* HomeView.swift in Sources */,
