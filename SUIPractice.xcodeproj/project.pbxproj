@@ -47,6 +47,8 @@
 		C1E1142B29E58FBA00ABBD2E /* ColorChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1142A29E58FBA00ABBD2E /* ColorChoice.swift */; };
 		C1E1142D29E58FCF00ABBD2E /* MyColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1142C29E58FCF00ABBD2E /* MyColorPicker.swift */; };
 		C1E1142F29E5BDCC00ABBD2E /* BackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1142E29E5BDCC00ABBD2E /* BackGroundView.swift */; };
+		C1E1143129E7256400ABBD2E /* ColorSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1143029E7256400ABBD2E /* ColorSave.swift */; };
+		C1E1143329E7271B00ABBD2E /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1143229E7271B00ABBD2E /* OtherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +112,8 @@
 		C1E1142A29E58FBA00ABBD2E /* ColorChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChoice.swift; sourceTree = "<group>"; };
 		C1E1142C29E58FCF00ABBD2E /* MyColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorPicker.swift; sourceTree = "<group>"; };
 		C1E1142E29E5BDCC00ABBD2E /* BackGroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundView.swift; sourceTree = "<group>"; };
+		C1E1143029E7256400ABBD2E /* ColorSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSave.swift; sourceTree = "<group>"; };
+		C1E1143229E7271B00ABBD2E /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +298,8 @@
 				C1E1142A29E58FBA00ABBD2E /* ColorChoice.swift */,
 				C1E1142C29E58FCF00ABBD2E /* MyColorPicker.swift */,
 				C1E1142E29E5BDCC00ABBD2E /* BackGroundView.swift */,
+				C1E1143029E7256400ABBD2E /* ColorSave.swift */,
+				C1E1143229E7271B00ABBD2E /* OtherView.swift */,
 			);
 			path = WWDC;
 			sourceTree = "<group>";
@@ -445,6 +451,7 @@
 				C18A65B229E1BAB800C0C0F2 /* MusicNotes.swift in Sources */,
 				C188D3C629D1ADE600FE2FAE /* NewHexColor.swift in Sources */,
 				C188D3BB29D0B4E000FE2FAE /* NewNavigationStack.swift in Sources */,
+				C1E1143329E7271B00ABBD2E /* OtherView.swift in Sources */,
 				C188D3C229D16A5800FE2FAE /* LoginTest.swift in Sources */,
 				C188D3B029CFF98000FE2FAE /* NewTabView.swift in Sources */,
 				C188D3AE29CFF3C400FE2FAE /* ModalAlert.swift in Sources */,
@@ -452,6 +459,7 @@
 				C188D3B729D074F100FE2FAE /* NewProgressView.swift in Sources */,
 				C1E1142529E5316900ABBD2E /* CustomColorPicker.swift in Sources */,
 				C188D3B329CFFBC600FE2FAE /* NewTextField.swift in Sources */,
+				C1E1143129E7256400ABBD2E /* ColorSave.swift in Sources */,
 				C188D3AB29CFF1EA00FE2FAE /* NewToggle.swift in Sources */,
 				C18A65A029DDA20E00C0C0F2 /* HomeView.swift in Sources */,
 				5D161C5E29D7E7100026F57C /* BlogUpload.swift in Sources */,

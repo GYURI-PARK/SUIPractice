@@ -121,13 +121,6 @@ struct ColorPickerView: View {
                             colorList.append(i)
                         }
                     }
-//                    for j in colorList {
-//                        colorList2.append(j)
-//                    }
-                    
-//                    for k in colorList2 {
-//                        colorList3.append(k)
-//                    }
                 }
             VStack{
                 ForEach(colorList, id:\.self){

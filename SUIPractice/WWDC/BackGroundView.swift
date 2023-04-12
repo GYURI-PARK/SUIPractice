@@ -1,41 +1,29 @@
-////
-////  BackGroundView.swift
-////  SUIPractice
-////
-////  Created by GYURI PARK on 2023/04/12.
-////
 //
-//import SwiftUI
+//  BackGroundView.swift
+//  SUIPractice
 //
-//struct BackGroundView: View {
-//    @Binding var selectedColors: [Color]
-//    
-//    var body: some View {
-//        VStack {
-//            ForEach(selectedColors.indices, id: \.self) { index in
-//                Rectangle()
-//                    .fill(selectedColors[index])
-//                    .frame(height: 100)
-//            }
-//            
-//            Button(action: {
-//                selectedColors.append(.white)
-//            }) {
-//                Text("Add Color")
-//            }
-//            
-//            ColorPicker("Pick a color", selection: Binding<Color>(
-//                get: { selectedColors[index] },
-//                set: { selectedColors[index] = $0 }
-//            ))
-//                .padding()
-//        }
-//    }
-//}
+//  Created by GYURI PARK on 2023/04/12.
 //
-//
-//struct BackGroundView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        BackGroundView()
-//    }
-//}
+
+
+import SwiftUI
+
+struct BackGroundView: View {
+    
+    //@Binding var selectedColor: Color
+    
+    var body: some View {
+        LinearGradient(gradient: Gradient(colors: [Color(0xCECECE), .blue, .red]), startPoint: .bottom, endPoint: .top)
+            .ignoresSafeArea()
+    }
+}
+
+struct BackGroundView_Previews: PreviewProvider {
+    @State static var selectedColor = Color.white
+    
+    static var previews: some View {
+        //BackgroundView(selectedColor: $selectedColor)
+        BackGroundView()
+            .previewInterfaceOrientation(.landscapeLeft)
+    }
+}
