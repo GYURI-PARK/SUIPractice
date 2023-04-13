@@ -31,6 +31,10 @@ struct Choice {
     let destination: Int
 }
 
-
+//struct StoryModels_Previews: PreviewProvider {
+//    static var previews: some View {
+//        StoryModels()
+//    }
+//}
 
 

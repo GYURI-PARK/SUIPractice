@@ -14,12 +14,9 @@ struct ColorData2 {
     
     func saveColor(color: Color) {
         let color = UIColor(color).cgColor
-        
+
         if let components = color.components {
             userDefaults.set(components, forKey: COLOR_KEY)
-            print("이거구나!!!!", components)
-            print("Colour saved!!")
-            
         }
     }
     
@@ -58,7 +55,7 @@ struct SaveColorTest: View {
                 
                 
                 VStack{
-                    ColorPicker("Pick a color", selection: $color)
+                    ColorPicker("", selection: $color)
                         .labelsHidden()
                         .padding()
                     
@@ -82,30 +79,29 @@ struct SaveColorTest: View {
                     
                 }
             }
-            .onAppear {
-                color = colorData.loadColor()
-                print("Test color : ", color)
-                SelectedColor.instance.colors.append("\(color)")
-            }
+//            .onAppear {
+//                color = colorData.loadColor()
+//                print("Test color : ", color)
+//                SelectedColor.instance.colors.append("\(color)")
+//            }
         }
     }
 }
 
-struct ColorListView: View {
-    @State var colorList: [String]
-    
-    var body: some View {
-        
-        VStack{
-            
-            List(colorList, id: \.self) { color in
-                Text("\(color)")
-            }
-            
-            Text("Hello world")
-        }
-    }
-}
+//struct ColorListView: View {
+//    @State var colorList: [String]
+//
+//    var body: some View {
+//
+//        VStack{
+//
+//            List(colorList, id: \.self) { color in
+//                Text("\(color)")
+//            }
+//
+//        }
+//    }
+//}
 
 
 struct SaveColorTest_Previews: PreviewProvider {

@@ -11,6 +11,11 @@
 		C1120CA229E80C6100DF018E /* SavingColoursApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1120CA129E80C6100DF018E /* SavingColoursApp.swift */; };
 		C1120CA429E8137D00DF018E /* SaveColorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1120CA329E8137D00DF018E /* SaveColorTest.swift */; };
 		C1120CA729E8273300DF018E /* ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1120CA629E8273300DF018E /* ColorData.swift */; };
+		C1120CA929E833AD00DF018E /* RealColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1120CA829E833AD00DF018E /* RealColorView.swift */; };
+		C1120CAB29E8800D00DF018E /* ParticleChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1120CAA29E8800D00DF018E /* ParticleChoice.swift */; };
+		C1120CAD29E88B4E00DF018E /* ImgModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1120CAC29E88B4E00DF018E /* ImgModalView.swift */; };
+		C1120CAF29E88BD500DF018E /* NewColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1120CAE29E88BD500DF018E /* NewColor.swift */; };
+		C1120CB129E88CC500DF018E /* ColorModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1120CB029E88CC500DF018E /* ColorModal.swift */; };
 		C12AA7AD29CC2E4C008DDAAE /* SUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12AA7AC29CC2E4C008DDAAE /* SUIPracticeApp.swift */; };
 		C12AA7AF29CC2E4C008DDAAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12AA7AE29CC2E4C008DDAAE /* ContentView.swift */; };
 		C12AA7B129CC2E4D008DDAAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12AA7B029CC2E4D008DDAAE /* Assets.xcassets */; };
@@ -75,6 +80,11 @@
 		C1120CA129E80C6100DF018E /* SavingColoursApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingColoursApp.swift; sourceTree = "<group>"; };
 		C1120CA329E8137D00DF018E /* SaveColorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveColorTest.swift; sourceTree = "<group>"; };
 		C1120CA629E8273300DF018E /* ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorData.swift; sourceTree = "<group>"; };
+		C1120CA829E833AD00DF018E /* RealColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealColorView.swift; sourceTree = "<group>"; };
+		C1120CAA29E8800D00DF018E /* ParticleChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleChoice.swift; sourceTree = "<group>"; };
+		C1120CAC29E88B4E00DF018E /* ImgModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgModalView.swift; sourceTree = "<group>"; };
+		C1120CAE29E88BD500DF018E /* NewColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewColor.swift; sourceTree = "<group>"; };
+		C1120CB029E88CC500DF018E /* ColorModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModal.swift; sourceTree = "<group>"; };
 		C12AA7A929CC2E4C008DDAAE /* SUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C12AA7AC29CC2E4C008DDAAE /* SUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIPracticeApp.swift; sourceTree = "<group>"; };
 		C12AA7AE29CC2E4C008DDAAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -314,6 +324,11 @@
 				C1E1143029E7256400ABBD2E /* ColorSave.swift */,
 				C1120CA129E80C6100DF018E /* SavingColoursApp.swift */,
 				C1120CA329E8137D00DF018E /* SaveColorTest.swift */,
+				C1120CA829E833AD00DF018E /* RealColorView.swift */,
+				C1120CAA29E8800D00DF018E /* ParticleChoice.swift */,
+				C1120CAC29E88B4E00DF018E /* ImgModalView.swift */,
+				C1120CAE29E88BD500DF018E /* NewColor.swift */,
+				C1120CB029E88CC500DF018E /* ColorModal.swift */,
 			);
 			path = WWDC;
 			sourceTree = "<group>";
@@ -460,21 +475,26 @@
 				C1E1142829E5416D00ABBD2E /* ColorPickerEx.swift in Sources */,
 				C18A659D29DDA10700C0C0F2 /* MainView2.swift in Sources */,
 				C18A65AD29DFE36A00C0C0F2 /* StoryView2.swift in Sources */,
+				C1120CA929E833AD00DF018E /* RealColorView.swift in Sources */,
 				C18A65A629DDA28100C0C0F2 /* Data.swift in Sources */,
 				C1D6FBFB29DAA142001B747A /* MyNavigationLink.swift in Sources */,
 				C1120CA729E8273300DF018E /* ColorData.swift in Sources */,
 				C18A65B229E1BAB800C0C0F2 /* MusicNotes.swift in Sources */,
+				C1120CAB29E8800D00DF018E /* ParticleChoice.swift in Sources */,
+				C1120CAD29E88B4E00DF018E /* ImgModalView.swift in Sources */,
 				C188D3C629D1ADE600FE2FAE /* NewHexColor.swift in Sources */,
 				C188D3BB29D0B4E000FE2FAE /* NewNavigationStack.swift in Sources */,
 				C188D3C229D16A5800FE2FAE /* LoginTest.swift in Sources */,
 				C1120CA429E8137D00DF018E /* SaveColorTest.swift in Sources */,
 				C188D3B029CFF98000FE2FAE /* NewTabView.swift in Sources */,
+				C1120CAF29E88BD500DF018E /* NewColor.swift in Sources */,
 				C188D3AE29CFF3C400FE2FAE /* ModalAlert.swift in Sources */,
 				C188D3C429D1864200FE2FAE /* NewPicker.swift in Sources */,
 				C188D3B729D074F100FE2FAE /* NewProgressView.swift in Sources */,
 				C1E1142529E5316900ABBD2E /* CustomColorPicker.swift in Sources */,
 				C188D3B329CFFBC600FE2FAE /* NewTextField.swift in Sources */,
 				C1E1143129E7256400ABBD2E /* ColorSave.swift in Sources */,
+				C1120CB129E88CC500DF018E /* ColorModal.swift in Sources */,
 				C188D3AB29CFF1EA00FE2FAE /* NewToggle.swift in Sources */,
 				C18A65A029DDA20E00C0C0F2 /* HomeView.swift in Sources */,
 				5D161C5E29D7E7100026F57C /* BlogUpload.swift in Sources */,

@@ -18,6 +18,9 @@ struct ColorSave: View {
         VStack {
             ColorPicker("Select a color", selection: $colorPickerModel.selectedColor)
             Text("Selected color: \(colorPickerModel.selectedColor.description)")
+            
+            Spacer()
+            
         }
     }
 }
