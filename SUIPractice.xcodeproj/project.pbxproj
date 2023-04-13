@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5D161C5E29D7E7100026F57C /* BlogUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D161C5D29D7E7100026F57C /* BlogUpload.swift */; };
+		C1120CA229E80C6100DF018E /* SavingColoursApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1120CA129E80C6100DF018E /* SavingColoursApp.swift */; };
 		C12AA7AD29CC2E4C008DDAAE /* SUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12AA7AC29CC2E4C008DDAAE /* SUIPracticeApp.swift */; };
 		C12AA7AF29CC2E4C008DDAAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12AA7AE29CC2E4C008DDAAE /* ContentView.swift */; };
 		C12AA7B129CC2E4D008DDAAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12AA7B029CC2E4D008DDAAE /* Assets.xcassets */; };
@@ -48,7 +49,6 @@
 		C1E1142D29E58FCF00ABBD2E /* MyColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1142C29E58FCF00ABBD2E /* MyColorPicker.swift */; };
 		C1E1142F29E5BDCC00ABBD2E /* BackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1142E29E5BDCC00ABBD2E /* BackGroundView.swift */; };
 		C1E1143129E7256400ABBD2E /* ColorSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1143029E7256400ABBD2E /* ColorSave.swift */; };
-		C1E1143329E7271B00ABBD2E /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1143229E7271B00ABBD2E /* OtherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +70,7 @@
 
 /* Begin PBXFileReference section */
 		5D161C5D29D7E7100026F57C /* BlogUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogUpload.swift; sourceTree = "<group>"; };
+		C1120CA129E80C6100DF018E /* SavingColoursApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingColoursApp.swift; sourceTree = "<group>"; };
 		C12AA7A929CC2E4C008DDAAE /* SUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C12AA7AC29CC2E4C008DDAAE /* SUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIPracticeApp.swift; sourceTree = "<group>"; };
 		C12AA7AE29CC2E4C008DDAAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,7 +114,6 @@
 		C1E1142C29E58FCF00ABBD2E /* MyColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorPicker.swift; sourceTree = "<group>"; };
 		C1E1142E29E5BDCC00ABBD2E /* BackGroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundView.swift; sourceTree = "<group>"; };
 		C1E1143029E7256400ABBD2E /* ColorSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSave.swift; sourceTree = "<group>"; };
-		C1E1143229E7271B00ABBD2E /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,7 +299,7 @@
 				C1E1142C29E58FCF00ABBD2E /* MyColorPicker.swift */,
 				C1E1142E29E5BDCC00ABBD2E /* BackGroundView.swift */,
 				C1E1143029E7256400ABBD2E /* ColorSave.swift */,
-				C1E1143229E7271B00ABBD2E /* OtherView.swift */,
+				C1120CA129E80C6100DF018E /* SavingColoursApp.swift */,
 			);
 			path = WWDC;
 			sourceTree = "<group>";
@@ -451,7 +451,6 @@
 				C18A65B229E1BAB800C0C0F2 /* MusicNotes.swift in Sources */,
 				C188D3C629D1ADE600FE2FAE /* NewHexColor.swift in Sources */,
 				C188D3BB29D0B4E000FE2FAE /* NewNavigationStack.swift in Sources */,
-				C1E1143329E7271B00ABBD2E /* OtherView.swift in Sources */,
 				C188D3C229D16A5800FE2FAE /* LoginTest.swift in Sources */,
 				C188D3B029CFF98000FE2FAE /* NewTabView.swift in Sources */,
 				C188D3AE29CFF3C400FE2FAE /* ModalAlert.swift in Sources */,
@@ -468,6 +467,7 @@
 				C188D3B529D003A600FE2FAE /* NewSecureField.swift in Sources */,
 				C12AA7AD29CC2E4C008DDAAE /* SUIPracticeApp.swift in Sources */,
 				C18A65B629E1BCF600C0C0F2 /* TabThisButton.swift in Sources */,
+				C1120CA229E80C6100DF018E /* SavingColoursApp.swift in Sources */,
 				C18A659B29DDA04F00C0C0F2 /* FavoritesView.swift in Sources */,
 				C1E1142B29E58FBA00ABBD2E /* ColorChoice.swift in Sources */,
 				C18A65AF29E0AB7200C0C0F2 /* StoryPageView.swift in Sources */,
