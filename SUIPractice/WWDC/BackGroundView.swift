@@ -10,11 +10,26 @@ import SwiftUI
 
 struct BackGroundView: View {
     
-    //@Binding var selectedColor: Color
+    @State var selected: [String] = []
+    
     
     var body: some View {
-        LinearGradient(gradient: Gradient(colors: [Color(0xCECECE), .blue, .red]), startPoint: .bottom, endPoint: .top)
-            .ignoresSafeArea()
+        ZStack {
+            LinearGradient(gradient: Gradient(colors: [Color(0xCECECE), .blue, .red]), startPoint: .bottom, endPoint: .top)
+                .ignoresSafeArea()
+            
+         
+            if selected.count != 0 {
+                Text("\(selected[0])")
+                    .font(.system(size: 30))
+            }
+            
+            
+        }
+        .onAppear {
+            let selectedColors = SelectedColor.instance.colors
+            selected = selectedColors
+        }
     }
 }
 
@@ -22,7 +37,6 @@ struct BackGroundView_Previews: PreviewProvider {
     @State static var selectedColor = Color.white
     
     static var previews: some View {
-        //BackgroundView(selectedColor: $selectedColor)
         BackGroundView()
             .previewInterfaceOrientation(.landscapeLeft)
     }

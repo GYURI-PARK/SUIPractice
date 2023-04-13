@@ -48,33 +48,45 @@ struct SaveColorTest: View {
     private var colorData = ColorData2()
     
     var body: some View {
-        ZStack() {
-            RoundedRectangle(cornerRadius: 50)
-                .foregroundColor(color)
-                .shadow(radius: 10)
-                .frame(width: 300, height: 300)
-                .padding(.top, 50)
-            
-            
-            VStack{
-                ColorPicker("Pick a color", selection: $color)
-                    .labelsHidden()
-                    .padding()
+        NavigationView{
+            ZStack() {
+                RoundedRectangle(cornerRadius: 50)
+                    .foregroundColor(color)
+                    .shadow(radius: 10)
+                    .frame(width: 300, height: 300)
+                    .padding(.top, 50)
                 
-                Button("Save") {
-                    colorData.saveColor(color: color)
-                    colorList.append(color.description)
-                    print("Test : ", colorData.loadColor())
-                }.foregroundColor(.blue)
-                    .fontWeight(.semibold)
-                    .font(.system(size: 30))
-                    .frame(width: 100)
                 
+                VStack{
+                    ColorPicker("Pick a color", selection: $color)
+                        .labelsHidden()
+                        .padding()
+                    
+                    NavigationLink(destination: BackGroundView()) {
+                                            Text("Show color list")
+                                        }
+                    
+                    Button("Save") {
+                        colorData.saveColor(color: color)
+                        colorList.append(color.description)
+                        print("Test : ", colorData.loadColor())
+                        
+                        color = colorData.loadColor()
+                        print("Test color : ", color)
+                        SelectedColor.instance.colors.append("\(color)")
+                        
+                    }.foregroundColor(.blue)
+                        .fontWeight(.semibold)
+                        .font(.system(size: 30))
+                        .frame(width: 100)
+                    
+                }
             }
-        }
-        .onAppear {
-            color = colorData.loadColor()
-            print("Test color : ", color)
+            .onAppear {
+                color = colorData.loadColor()
+                print("Test color : ", color)
+                SelectedColor.instance.colors.append("\(color)")
+            }
         }
     }
 }
@@ -83,8 +95,14 @@ struct ColorListView: View {
     @State var colorList: [String]
     
     var body: some View {
-        List(colorList, id: \.self) { color in
-            Text(color)
+        
+        VStack{
+            
+            List(colorList, id: \.self) { color in
+                Text("\(color)")
+            }
+            
+            Text("Hello world")
         }
     }
 }
