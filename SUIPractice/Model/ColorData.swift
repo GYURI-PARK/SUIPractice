@@ -12,3 +12,4 @@ class SelectedColor {
     var colors : [String] = []
     private init(){}
 }
+

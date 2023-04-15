@@ -16,6 +16,8 @@
 		C1120CAD29E88B4E00DF018E /* ImgModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1120CAC29E88B4E00DF018E /* ImgModalView.swift */; };
 		C1120CAF29E88BD500DF018E /* NewColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1120CAE29E88BD500DF018E /* NewColor.swift */; };
 		C1120CB129E88CC500DF018E /* ColorModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1120CB029E88CC500DF018E /* ColorModal.swift */; };
+		C1120CB329E92B8700DF018E /* ColorModalver2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1120CB229E92B8600DF018E /* ColorModalver2.swift */; };
+		C1120CB529EB094300DF018E /* GeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1120CB429EB094300DF018E /* GeometryView.swift */; };
 		C12AA7AD29CC2E4C008DDAAE /* SUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12AA7AC29CC2E4C008DDAAE /* SUIPracticeApp.swift */; };
 		C12AA7AF29CC2E4C008DDAAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12AA7AE29CC2E4C008DDAAE /* ContentView.swift */; };
 		C12AA7B129CC2E4D008DDAAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12AA7B029CC2E4D008DDAAE /* Assets.xcassets */; };
@@ -85,6 +87,8 @@
 		C1120CAC29E88B4E00DF018E /* ImgModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgModalView.swift; sourceTree = "<group>"; };
 		C1120CAE29E88BD500DF018E /* NewColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewColor.swift; sourceTree = "<group>"; };
 		C1120CB029E88CC500DF018E /* ColorModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModal.swift; sourceTree = "<group>"; };
+		C1120CB229E92B8600DF018E /* ColorModalver2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModalver2.swift; sourceTree = "<group>"; };
+		C1120CB429EB094300DF018E /* GeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryView.swift; sourceTree = "<group>"; };
 		C12AA7A929CC2E4C008DDAAE /* SUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C12AA7AC29CC2E4C008DDAAE /* SUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIPracticeApp.swift; sourceTree = "<group>"; };
 		C12AA7AE29CC2E4C008DDAAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -247,6 +251,7 @@
 				C188D3B829D0B2B900FE2FAE /* NewNavigationView.swift */,
 				C188D3BA29D0B4E000FE2FAE /* NewNavigationStack.swift */,
 				C188D3BE29D167BE00FE2FAE /* NewCapture.swift */,
+				C1120CB429EB094300DF018E /* GeometryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -329,6 +334,7 @@
 				C1120CAC29E88B4E00DF018E /* ImgModalView.swift */,
 				C1120CAE29E88BD500DF018E /* NewColor.swift */,
 				C1120CB029E88CC500DF018E /* ColorModal.swift */,
+				C1120CB229E92B8600DF018E /* ColorModalver2.swift */,
 			);
 			path = WWDC;
 			sourceTree = "<group>";
@@ -480,6 +486,7 @@
 				C1D6FBFB29DAA142001B747A /* MyNavigationLink.swift in Sources */,
 				C1120CA729E8273300DF018E /* ColorData.swift in Sources */,
 				C18A65B229E1BAB800C0C0F2 /* MusicNotes.swift in Sources */,
+				C1120CB329E92B8700DF018E /* ColorModalver2.swift in Sources */,
 				C1120CAB29E8800D00DF018E /* ParticleChoice.swift in Sources */,
 				C1120CAD29E88B4E00DF018E /* ImgModalView.swift in Sources */,
 				C188D3C629D1ADE600FE2FAE /* NewHexColor.swift in Sources */,
@@ -496,6 +503,7 @@
 				C1E1143129E7256400ABBD2E /* ColorSave.swift in Sources */,
 				C1120CB129E88CC500DF018E /* ColorModal.swift in Sources */,
 				C188D3AB29CFF1EA00FE2FAE /* NewToggle.swift in Sources */,
+				C1120CB529EB094300DF018E /* GeometryView.swift in Sources */,
 				C18A65A029DDA20E00C0C0F2 /* HomeView.swift in Sources */,
 				5D161C5E29D7E7100026F57C /* BlogUpload.swift in Sources */,
 				C12AA7AF29CC2E4C008DDAAE /* ContentView.swift in Sources */,

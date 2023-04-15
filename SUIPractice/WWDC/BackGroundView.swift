@@ -8,10 +8,14 @@
 
 import SwiftUI
 
+class SelectedList: ObservableObject {
+    @Published var selected: [String] = []
+}
+
+
 struct BackGroundView: View {
     
-    
-    @State var selected: [String] = []
+    @ObservedObject var selected = SelectedList()
     
     var body: some View {
         ZStack {
@@ -21,20 +25,21 @@ struct BackGroundView: View {
             
             
             VStack{
-                if selected.count != 0 {
-                    Text("\(selected[0])")
+                if selected.selected.count != 0 {
+                    Text("\(selected.selected[0])")
                         .font(.system(size: 30))
                 }
                 else {
                     Text("selected")
+                        .font(.title)
                 }
-                
+               
             }
         }
         .onAppear {
-            let selectedColors = SelectedColor.instance.colors
-            selected = selectedColors
-            print(selected.count)
+            let selectedColors = SelectedList()
+            selected.selected = selectedColors.selected
+            print(selected.selected.count)
         }
     }
 }

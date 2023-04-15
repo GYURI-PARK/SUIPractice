@@ -41,34 +41,40 @@ struct RealColorView: View {
     private var colorData = NewColorData()
     
     var body: some View {
-        ZStack() {
-            RoundedRectangle(cornerRadius: 50)
-                .foregroundColor(color)
-                .shadow(radius: 10)
-                .frame(width: 300, height: 300)
-                .padding(.top, 50)
-            
-            
-            VStack{
-                ColorPicker("", selection: $color)
-                    .labelsHidden()
-                    .padding(.top, 70)
+        NavigationView{
+            ZStack() {
+                RoundedRectangle(cornerRadius: 50)
+                    .foregroundColor(color)
+                    .shadow(radius: 10)
+                    .frame(width: 300, height: 300)
+                    .padding(.top, 50)
                 
-                Button("Save") {
-                    colorData.saveColor(color: color)
-                    colorList.append(color.description)
-                    print("Test : ", colorData.loadColor())
-                    
-                    color = colorData.loadColor()
-                    print("Test color : ", color)
-                    SelectedColor.instance.colors.append("\(color)")
-                    print("sdfsdfddsfsd \(SelectedColor.instance.colors)")
-                    
-                }.foregroundColor(.white)
-                    .fontWeight(.semibold)
-                    .font(.system(size: 30))
-                    .frame(width: 100)
                 
+                VStack{
+                    ColorPicker("", selection: $color)
+                        .labelsHidden()
+                        .padding(.top, 70)
+                    
+                    NavigationLink(destination: BackGroundView()) {
+                                            Text("Show color list")
+                    }
+                    
+                    Button("Save") {
+                        colorData.saveColor(color: color)
+                        colorList.append(color.description)
+                        print("Test : ", colorData.loadColor())
+                        
+                        color = colorData.loadColor()
+                        print("Test color : ", color)
+                        SelectedColor.instance.colors.append("\(color)")
+                        print("sdfsdfddsfsd \(SelectedColor.instance.colors)")
+                        
+                    }.foregroundColor(.white)
+                        .fontWeight(.semibold)
+                        .font(.system(size: 30))
+                        .frame(width: 100)
+                    
+                }
             }
         }
     }

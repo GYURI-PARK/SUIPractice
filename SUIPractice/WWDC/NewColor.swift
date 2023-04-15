@@ -9,6 +9,7 @@ import SwiftUI
 
 struct NewColor: View {
     @State private var showSheet: Bool = false
+
     
     var body: some View {
             ZStack{
@@ -36,18 +37,20 @@ struct NewColor: View {
                                 .frame(width: 400, height: 60)
                             
                             ZStack{
-                                RoundedRectangle(cornerRadius: 50)
+                                Circle()
+                                    .fill(Color.white)
                                     .frame(width: 300, height: 300)
                                     .shadow(color: Color(0xCECECE),radius: 10)
                                     .padding(.top, 50)
                                     .foregroundColor(.white)
+                                    
                                 
                                 Image(systemName: "plus.circle").font(.system(size: 70)).offset(x:0, y: 23).foregroundColor(Color(0xCECECE))
                                     .onTapGesture {
                                         showSheet = true
                                     }
                                     .sheet(isPresented: $showSheet) {
-                                        ColorModal()
+                                        ColorModalver2()
                                     }
                             }
                         }
@@ -64,7 +67,13 @@ struct NewColor: View {
                                 .frame(width: 400, height: 60)
                             
                             ZStack{
-                                RoundedRectangle(cornerRadius: 50)
+                                Circle()
+                                    .fill(RadialGradient(
+                                        gradient: Gradient(colors: [Color(0xE4EAF2), Color(0x949BA6), Color(0x565759), .blue]),
+                                        center: .center,
+                                        startRadius: 0,
+                                        endRadius: 150
+                                    ))
                                     .frame(width: 300, height: 300)
                                     .shadow(color: Color(0xCECECE),radius: 10)
                                     .padding(.top, 50)
@@ -75,7 +84,7 @@ struct NewColor: View {
                                         showSheet = true
                                     }
                                     .sheet(isPresented: $showSheet) {
-                                        ColorModal()
+                                        ColorModalver2()
                                     }
                             }
                             
@@ -93,7 +102,13 @@ struct NewColor: View {
                                 .frame(width: 400, height: 60)
                             
                             ZStack{
-                                RoundedRectangle(cornerRadius: 50)
+                                Circle()
+                                    .fill(RadialGradient(
+                                        gradient: Gradient(colors: [Color(0xE4EAF2), Color(0x949BA6), Color(0x565759), .blue]),
+                                        center: .center,
+                                        startRadius: 0,
+                                        endRadius: 150
+                                    ))
                                     .frame(width: 300, height: 300)
                                     .shadow(color: Color(0xCECECE),radius: 10)
                                     .padding(.top, 50)
@@ -104,7 +119,7 @@ struct NewColor: View {
                                         showSheet = true
                                     }
                                     .sheet(isPresented: $showSheet) {
-                                        ColorModal()
+                                        ColorModalver2()
                                     }
                             }
                         }
