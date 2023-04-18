@@ -9,7 +9,8 @@ import SwiftUI
 import SpriteKit
 
 struct BounceView: View {
-    var scene = NewGameScene()
+    //var scene = NewGameScene()
+    var scene = RemoveScene()
     
     var body: some View {
         SpriteView(scene: scene)

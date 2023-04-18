@@ -32,6 +32,7 @@
 		C12AA7CA29CC2E4E008DDAAE /* SUIPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12AA7C929CC2E4E008DDAAE /* SUIPracticeUITestsLaunchTests.swift */; };
 		C17D6E2829EED6FC00F826E5 /* BounceBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17D6E2729EED6FC00F826E5 /* BounceBall.swift */; };
 		C17D6E2A29EED74B00F826E5 /* BounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17D6E2929EED74B00F826E5 /* BounceView.swift */; };
+		C17D6E2C29EEDAB800F826E5 /* RemoveBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17D6E2B29EEDAB800F826E5 /* RemoveBall.swift */; };
 		C188D3AB29CFF1EA00FE2FAE /* NewToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3AA29CFF1EA00FE2FAE /* NewToggle.swift */; };
 		C188D3AE29CFF3C400FE2FAE /* ModalAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3AD29CFF3C400FE2FAE /* ModalAlert.swift */; };
 		C188D3B029CFF98000FE2FAE /* NewTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C188D3AF29CFF98000FE2FAE /* NewTabView.swift */; };
@@ -113,6 +114,7 @@
 		C12AA7C929CC2E4E008DDAAE /* SUIPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C17D6E2729EED6FC00F826E5 /* BounceBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceBall.swift; sourceTree = "<group>"; };
 		C17D6E2929EED74B00F826E5 /* BounceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceView.swift; sourceTree = "<group>"; };
+		C17D6E2B29EEDAB800F826E5 /* RemoveBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveBall.swift; sourceTree = "<group>"; };
 		C188D3AA29CFF1EA00FE2FAE /* NewToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToggle.swift; sourceTree = "<group>"; };
 		C188D3AD29CFF3C400FE2FAE /* ModalAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalAlert.swift; sourceTree = "<group>"; };
 		C188D3AF29CFF98000FE2FAE /* NewTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTabView.swift; sourceTree = "<group>"; };
@@ -263,6 +265,7 @@
 			children = (
 				C17D6E2729EED6FC00F826E5 /* BounceBall.swift */,
 				C17D6E2929EED74B00F826E5 /* BounceView.swift */,
+				C17D6E2B29EEDAB800F826E5 /* RemoveBall.swift */,
 			);
 			path = SpriteKit;
 			sourceTree = "<group>";
@@ -530,6 +533,7 @@
 				C1120CA729E8273300DF018E /* ColorData.swift in Sources */,
 				C18A65B229E1BAB800C0C0F2 /* MusicNotes.swift in Sources */,
 				C1120CB329E92B8700DF018E /* ColorModalver2.swift in Sources */,
+				C17D6E2C29EEDAB800F826E5 /* RemoveBall.swift in Sources */,
 				C1120CAB29E8800D00DF018E /* ParticleChoice.swift in Sources */,
 				C1120CAD29E88B4E00DF018E /* ImgModalView.swift in Sources */,
 				C188D3C629D1ADE600FE2FAE /* NewHexColor.swift in Sources */,
